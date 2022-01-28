@@ -1,0 +1,2 @@
+Add your panels.<br />
+Note: panels are HTML

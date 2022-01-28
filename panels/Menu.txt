@@ -1,0 +1,2 @@
+<a href="index.php">Index<a/><br />
+<a href="?q=">Search</a>
