@@ -9,24 +9,21 @@ Additionally you can create and edit static pages (Tenon) for more accessible lo
 It is our intention that Miter remain an open source project employing php/txt/xml markup, avoiding mysql so as to aide the most novice of users in implementation and preservation of their Miter account.<br />
 <br />
 <b>Installation</b><br />
-<hr />1. Upload miter.rar contents to your server. If not functioning as your front page, place contents into a file directory called miter/<br />
+1. Upload miter.rar contents to your server. If not functioning as your front page, place contents into a file directory called miter/<br />
 2. Directory Protect (Password Protect) the back/ folder via host panel or htaccess<br />
 3. You may require to give permission to outgoing connections with in your host firewall to permit several features if enabled.<br />
 <br />
 <b>Warning</b><br />
-<hr />Changing coded aesthetics and implementation is welcomed - tho we discourage you from altering Miter authoring format. Corruption of the standardized format will deny your data from public visibility and sharing.<br />
-<br />
-<b>Repository</b><br />
-<hr />Download: miter.rar<br />
+Changing coded aesthetics and implementation is welcomed - tho we discourage you from altering Miter authoring format. Corruption of the standardized format will deny your data from public visibility and sharing.<br />
 <br />
 <b>Updates</b><br />
-<hr />Updates are frequent --> notification(s) are isolated to vijemiller.com<br />
+Updates are frequent --> notification(s) are isolated to vijemiller.com<br />
 <br />
 <b>Disclaimer</b><br />
-<hr />Ayh am not a professional programmer.<br />
+Ayh am not a professional programmer.<br />
 WYSIWYG.. which is why contributions are welcomed.<br />
 <br />
 <b>Miter App</b><br />
-<hr />When released, you will not need an account to retain a miter feed. The application for desktop and phone will permit a user to unsigned follow miter users and see trends aggregated from Miter (Stockyard).<br />
+When released, you will not need an account to retain a miter feed. The application for desktop and phone will permit a user to unsigned follow miter users and see trends aggregated from Miter (Stockyard).<br />
 <br />
 Users who wish to write miters, reply to other users or repost and quote other miters will require account verification between their hosted platform and their application.<br />
