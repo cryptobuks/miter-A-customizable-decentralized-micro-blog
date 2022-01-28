@@ -1,60 +1,60 @@
-**310021**
-upload url linked
-FILECHANGES
-back/upload/upload_miter_load.php
-back/upload/upload_tenon_load.php
-
-**211021**
-FILECHANGES
-robots.txt
-
-**208021**
-iso.php img address error
-FILECHANGES
-front/iso.php
-
-**207021**
-miter form upload write error fixed
-FILECHANGES
-back/miter/miter.php
-
-**202021**
-permalink bug fixed
-FILECHANGES
-front/static.php
-front/iso.php
-
-**200021**
-all folder name change
-update *all* files to reflect folder name changes
-WARNING: miters with upl/ must remove upl/
-WARNING: tenons with img/ must change to images/
-FILECHANGES
-folders
-index.php
-back/*.*
-front/*.*
-
-**56021**
-minor html validation updates
-FILECHANGES
-index.php
-style.css
-cor/echo iso miter tenon pin static profile
-scr/miter/form
-scr/upload/*_count(3)
-
-**47021**
--Critical Update-
-new file structure(s)
-new dropdown tag inserts
-inserts edit pages
-+more
-FILECHANGES
-delete cor/ scr/
-upload cor/ scr/
-index.php
-style.css
+**310021**<br /><br />
+upload url linked<br />
+FILECHANGES<br />
+back/upload/upload_miter_load.php<br />
+back/upload/upload_tenon_load.php<br />
+<br />
+**211021**<br />
+FILECHANGES<br />
+robots.txt<br />
+<br />
+**208021**<br />
+iso.php img address error<br />
+FILECHANGES<br />
+front/iso.php<br />
+<br />
+**207021**<br />
+miter form upload write error fixed<br />
+FILECHANGES<br />
+back/miter/miter.php<br />
+<br />
+**202021**<br />
+permalink bug fixed<br />
+FILECHANGES<br />
+front/static.php<br />
+front/iso.php<br />
+<br />
+**200021**<br />
+all folder name change<br />
+update *all* files to reflect folder name changes<br />
+WARNING: miters with upl/ must remove upl/<br />
+WARNING: tenons with img/ must change to images/<br />
+FILECHANGES<br />
+folders<br />
+index.php<br />
+back/*.*<br />
+front/*.*<br />
+<br />
+**56021**<br />
+minor html validation updates<br />
+FILECHANGES<br />
+index.php<br />
+style.css<br />
+cor/echo iso miter tenon pin static profile<br />
+scr/miter/form<br />
+scr/upload/*_count(3)<br />
+<br />
+**47021**<br />
+-Critical Update-<br />
+new file structure(s)<br />
+new dropdown tag inserts<br />
+inserts edit pages<br />
++more<br />
+FILECHANGES<br />
+delete cor/ scr/<br />
+upload cor/ scr/<br />
+index.php<br />
+style.css<br />
 
 **42021**
 miter form upload button update
