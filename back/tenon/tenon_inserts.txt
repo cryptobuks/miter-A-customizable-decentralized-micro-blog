@@ -1,0 +1,32 @@
+b||<b>
+/b||</b>
+i||<i>
+/i||</i>
+u||<u>
+/u||</u>
+s||<s>
+/s||</s>
+link||<a href='' target='_blank'>
+tenon||<a href='?t='>
+miter||<a href='?miter='>
+/a||</a>
+br||<br />
+hr||<hr>
+<||&lt;
+img||<img src=''>
+center||<div align='center'>
+youtube||<div class='youtube'><iframe class='youtube_iframe' src='https://www.youtube.com/embed/' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>
+mp4||<div class='video'><video class='video_iframe' controls><source src='' type='video/mp4'></video></div>
+webm||<div class='video'><video class='video_iframe' controls><source src='' type='video/webm'></video></div>
+/div||</div>
+pre||<pre>
+/pre||</pre>
+table||<table><tr><td>
+col||</td><td>
+close table||</td></tr></table>
+small||<span class='small'>
+/span||</span>
+sup||<sup>
+/sup||</sup>
+sub||<sub>
+/sup||</sub>
