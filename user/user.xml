@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<miter>
+  <user>
+</user>
+<user id="probe">
+	<name>@username</name>
+    <title>Title</title>
+	<avatar></avatar>
+    <bio>Miter-er</bio>
+    <bg>#DAE0E6</bg>
+    <header>#E9ECEF</header>
+    <border>#bbbbbb</border>
+    <link>#0000BB</link>
+	<pin></pin>
+</user>
+</miter>
