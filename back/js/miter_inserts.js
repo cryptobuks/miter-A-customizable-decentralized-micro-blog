@@ -13,3 +13,9 @@ more_buttons_dropdown.onchange = function() {
     txtarea.focus();
     txtarea.scrollTop = scrollPos;
 }
+
+const uploadBTN = document.getElementById('upload');
+uploadBTN.addEventListener('change',
+function() {
+    document.getElementById('url').value = this.files[0].name
+})
