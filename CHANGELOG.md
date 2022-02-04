@@ -1,3 +1,12 @@
+**322021**<br />
+upload button moved<br />
+upload results appear in field<br />
+thread button removed<br />
+FILECHANGES<br />
+back/js/miter_inserts.js<br />
+back/miter/form.php<br />
+back/admin.css<br />
+<br />
 **310021**<br />
 upload url linked<br />
 FILECHANGES<br />
