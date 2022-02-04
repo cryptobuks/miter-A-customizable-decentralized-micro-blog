@@ -71,7 +71,19 @@ if (isset($_GET['edit'])) {
 									echo "<input id='url' name='url' class='miter_url_field' value='" . $quote_id . "'>";
 								} else {
 									?>
-									<input id="url" name="url" class="miter_url_field" value="" placeholder="Link, Tag(s), Image or Video">
+									<table class="sub_url_table">
+										<tr>
+											<td class="sub_url_td_left">
+												<input id="url" name="url" class="miter_url_field" value="" placeholder="Link, Tag(s), Image or Video">
+											</td>
+											<td class="sub_url_td_right">
+												<label class="upload_label">
+												<input type="file" name="upload" id="upload" class="upload_style" accept="image/*">
+												+
+												</label>
+											</td>
+										</tr>
+									</table>
 									<?
 								}
 								?>
@@ -91,14 +103,7 @@ echo "<input type='hidden' id='filename' name='filename' value='" . $edit_last_i
 
 					<table cellpadding="0" cellspacing="0" class="sub_submit_table">
 						<tr>
-							<td class="upload_td" align="left">
-								<label class="upload_label">
-								<input type="file" name="upload" id="upload" class="upload_style" accept="image/*">
-								Add Image
-								</label>
-							</td>
 							<td class="submit_td" align="right">
-								<input type="submit" name="thread_submit" id="thread_button" value="+" class="thread_submit">
 								<script>
 									document.write("<input type='submit' name='submit' id='sub_but' value="+count+" class='miter_user_submit'>");
 								</script>
