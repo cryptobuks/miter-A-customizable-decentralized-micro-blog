@@ -5,7 +5,7 @@
 	$miter_spaces = str_replace(' ', '', $miter_user);
 	$miter_name = "@" . $miter_spaces;
 	foreach( $username->xpath("user[@id='probe']") as $data ) {
-		$data->username = $miter_name;
+		$data->name = $miter_name;
 	}
 	$username->asXML($user_file);
 	header("location:../../index.php?u=settings");
