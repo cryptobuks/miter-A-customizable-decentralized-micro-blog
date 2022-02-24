@@ -1,3 +1,8 @@
+**342021**<br />
+username settings error fixed<br />
+FILECHANGES<br />
+back/admin/user_name.php<br />
+<br />
 **322021**<br />
 upload button moved<br />
 upload results appear in field<br />
