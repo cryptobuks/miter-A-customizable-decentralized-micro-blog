@@ -109,7 +109,7 @@ echo "<input type='hidden' id='filename' name='filename' value='" . $edit_last_i
 								<table cellpadding="0" cellspacing="0" border="0">
 									<tr>
 										<td class="submit_td_box">							
-											<input type="checkbox" id="overchar"><label for="overchar" class="overchar_label">overchar</label>
+											<input type="checkbox" id="overchar"><label for="overchar" class="overchar_label"></label>
 										</td>
 										<td class="submit_td">
 											<script>
