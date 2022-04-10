@@ -1,3 +1,20 @@
+**21022**<br />
+combined js form files<br />
+character limit toggle added<br />
+css changes<br />
+FILECHAGES<br />
+back/admin.css<br />
+back/miter/form.php<br />
+back/js/miter_form.js<br />
+back/js/tenon_form.js<br />
+back/panel/panel.php<br />
+back/tenon/new.php<br /><br />
+back/tenon/edit.php<br />
+DELETE<br />
+back/js/miter_inserts.js<br />
+back/js/form.js<br />
+back/js/index.js<br />
+<br />
 **342021**<br />
 username settings error fixed<br />
 FILECHANGES<br />
