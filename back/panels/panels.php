@@ -170,11 +170,10 @@ if (isset($_GET['p'])) {
 		</td>
 	</tr>
 </table>
-	
+
 <script src='back/js/autosize.js'></script>
 <script> autosize(document.querySelectorAll('textarea')); </script>
 <script src="back/js/panels_inserts.js"></script>
-	
-</form>
+<script src="back/js/tenon_form.js"></script>
 
-<script src="back/js/form.js"></script>							
+</form>
