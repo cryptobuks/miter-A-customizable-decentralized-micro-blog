@@ -2,7 +2,7 @@
 combined js form files<br />
 character limit toggle added<br />
 css changes<br />
-FILECHAGES<br />
+FILECHANGES<br />
 back/admin.css<br />
 back/miter/form.php<br />
 back/js/miter_form.js<br />
