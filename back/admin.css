@@ -11,8 +11,8 @@
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	outline:none;
-	border-top-left-radius:3px;
-	border-top-right-radius:3px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
 }
 
 .sub_button_table {
@@ -62,8 +62,8 @@
 	margin:0;
 	border-spacing:0px;
 	border-collapse:separate;
-	border-bottom-left-radius:3px;
-	border-bottom-right-radius:3px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
 }
 
 .upload_label {
@@ -75,8 +75,8 @@
 	font:normal 13px verdana;
 	color:#555555;
 	background-color:#efefef;
-	padding:7px 15px 8px 15px;
-	border-radius:3px;
+	padding:8px 15px 8px 15px;
+	border-radius:0px;
 	margin:0;
 	transition-duration: 0.4s;
 }
@@ -99,7 +99,7 @@
 	color:#555555;
 	background-color:#fff;
 	padding:4px 5px 4px 5px;
-	border-radius:3px;
+	border-radius:0px;
 }
 
 .miter_user_submit {
@@ -110,7 +110,7 @@
 	color:#000;
 	background-color:#efefef;
 	padding:7px 50px 8px 50px;
-	border-radius:3px;
+	border-radius:0px;
 	cursor:pointer;
 	transition-duration: 0.4s;
 }
@@ -211,7 +211,7 @@
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	outline:none;
-	border-radius:3px;
+	border-radius:0px;
 }
 
 .gen_table {
@@ -221,7 +221,7 @@
 	margin:0;
 	border-spacing:0px;
 	border-collapse:separate;
-	border-radius:3px;
+	border-radius:0px;
 }
 
 .gen_td {
@@ -259,20 +259,69 @@
 	border:0px solid #FFF;
 }
 
+.submit_td_box {
+	vertical-align:middle;
+	padding:0px 10px 2px 0px;
+	margin:0;
+}
 
-/* Tenon Form */
+/* overchar toggle */
 
+input[type=checkbox]{
+	height:0;
+	width:0;
+	visibility:hidden;
+}
+
+.overchar_label {
+	cursor:pointer;
+	text-indent:-9999px;
+	width:32px;
+	height:18px;
+	background:#fff;
+	display:block;
+	border-radius:3px;
+	position:relative;
+	border:1px solid #d5d5d5;
+}
+
+.overchar_label:after {
+	content:'';
+	position:absolute;
+	top:3px;
+	left:3px;
+	width:10px;
+	height:10px;
+	background:#fff;
+	border-radius:3px;
+	border:1px solid #d5d5d5;
+	}
+
+input:checked + .overchar_label {
+	background:#efefef;
+}
+
+input:checked + .overchar_label:after {
+	left:calc(100% - 3px);
+	transform:translateX(-100%);
+}
+
+.overchar_label:active:after {
+	width:32px;
+}
+
+/* tenon form */
 
 .input_table {
 	width:100%;
 	border:0px solid #b2aba3;
-	background-color:#FFF;
+	background-color:#fff;
 	padding:0;
 	margin:0;
 	border-spacing:0px;
 	border-collapse:separate;
-	border-bottom-left-radius:3px;
-	border-bottom-right-radius:3px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
 }
 
 .input_td {
@@ -284,9 +333,9 @@
 	width:100%;
 	height:100px;
 	max-height:500px;
-	border:0px solid #FFF;
+	border:0px solid #fff;
 	font:normal 13px verdana;
-	background-color:#FFF;
+	background-color:#fff;
 	padding:6px 12px 6px 12px;
 	margin:0;
 	-webkit-box-sizing:border-box;
@@ -302,8 +351,8 @@
 
 .panel_option_housing {
 	width:100%;
-	border:0px solid #AAA;
-	background-color:#FFF;
+	border:0px solid #aaa;
+	background-color:#fff;
 	padding:0;
 	margin:0;
 	border-spacing:0px;
@@ -311,8 +360,8 @@
 }
 
 .panel_option_table {
-	border:0px solid #AAA;
-	background-color:#FFF;
+	border:0px solid #aaa;
+	background-color:#fff;
 	padding:9px 0px 1px 0px;
 	margin:0;
 	border-spacing:0px;
@@ -358,14 +407,14 @@
 
 .submit_table {
 	width:100%;
-	border:0px solid #AAA;
-	background-color:#FFF;
+	border:0px solid #aaa;
+	background-color:#fff;
 	padding:12px 0px 12px 0px;
 	margin:0;
 	border-spacing:0px;
 	border-collapse:separate;
-	border-bottom-left-radius:3px;
-	border-bottom-right-radius:3px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
 }
 
 .submit_td {
@@ -374,13 +423,13 @@
 }
 
 .tenon_submit {
-	border:1px solid #D5D5D5;
+	border:1px solid #d5d5d5;
 	font:normal 13px verdana;
 	color:#000;
 	background-color:#efefef;
 	padding:7px 45px 8px 45px;
 	margin:0;
-	border-radius:3px;
+	border-radius:0px;
 	cursor:pointer;
 	transition-duration: 0.4s;
 }
@@ -406,8 +455,8 @@
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	outline:none;
-	border-top-left-radius:3px;
-	border-top-right-radius:3px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
 }
 
 .settings_field_solo {
@@ -423,7 +472,7 @@
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	outline:none;
-	border-radius:3px;
+	border-radius:0px;
 }
 
 .settings_color_field {
@@ -438,8 +487,8 @@
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	outline:none;
-	border-top-left-radius:3px;
-	border-top-right-radius:3px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
 }
 
 
@@ -456,8 +505,8 @@
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	outline:none;
-	border-top-left-radius:3px;
-	border-top-right-radius:3px;
+	border-top-left-radius:0px;
+	border-top-right-radius:0px;
 }
 
 .settings_field_file {
@@ -483,8 +532,8 @@
 	background-color:#efefef;
 	padding:8px 0px 8px 0px;
 	text-align:center;
-	border-bottom-left-radius:3px;
-	border-bottom-right-radius:3px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius:0px;
 	cursor:pointer;
 }
 
@@ -496,7 +545,7 @@
 	background-color:#efefef;
 	padding:9px 0px 9px 0px;
 	text-align:center;
-	border-radius:3px;
+	border-radius:0px;
 	cursor:pointer;
 }
 
