@@ -22,6 +22,8 @@ if (isset($_GET['edit'])) {
 } 
 ?>
 
+<script src='back/js/miter_form.js'></script>
+
 <table class="gen_table">
 	<tr>
 		<td class='gen_td'>
@@ -104,9 +106,18 @@ echo "<input type='hidden' id='filename' name='filename' value='" . $edit_last_i
 					<table cellpadding="0" cellspacing="0" class="sub_submit_table">
 						<tr>
 							<td class="submit_td" align="right">
-								<script>
-									document.write("<input type='submit' name='submit' id='sub_but' value="+count+" class='miter_user_submit'>");
-								</script>
+								<table cellpadding="0" cellspacing="0" border="0">
+									<tr>
+										<td class="submit_td_box">							
+											<input type="checkbox" id="overchar"><label for="overchar" class="overchar_label">overchar</label>
+										</td>
+										<td class="submit_td">
+											<script>
+												document.write("<input type='submit' name='submit' id='sub_but' value="+count+" class='miter_user_submit'>");
+											</script>
+										</td>
+									</tr>
+								</table>
 							</td>
 						</tr>
 					</table>
@@ -114,7 +125,6 @@ echo "<input type='hidden' id='filename' name='filename' value='" . $edit_last_i
 <script src='back/js/autosize.js'></script>
 <script> autosize(document.querySelectorAll('textarea')); </script>
 <script src="back/js/buttons.js"></script>
-<script src="back/js/miter_inserts.js"></script>
 <script src="back/js/dirtyforms.js"></script>
 <script>$('form').dirtyForms();</script>
 
