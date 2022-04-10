@@ -8,7 +8,7 @@ back/miter/form.php<br />
 back/js/miter_form.js<br />
 back/js/tenon_form.js<br />
 back/panel/panel.php<br />
-back/tenon/new.php<br /><br />
+back/tenon/new.php<br />
 back/tenon/edit.php<br />
 DELETE<br />
 back/js/miter_inserts.js<br />
