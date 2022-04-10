@@ -11,8 +11,8 @@
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	outline:none;
-	border-top-left-radius:0px;
-	border-top-right-radius:0px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
 }
 
 .sub_button_table {
@@ -62,8 +62,8 @@
 	margin:0;
 	border-spacing:0px;
 	border-collapse:separate;
-	border-bottom-left-radius:0px;
-	border-bottom-right-radius:0px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
 }
 
 .upload_label {
@@ -76,7 +76,7 @@
 	color:#555555;
 	background-color:#efefef;
 	padding:8px 15px 8px 15px;
-	border-radius:0px;
+	border-radius:3px;
 	margin:0;
 	transition-duration: 0.4s;
 }
@@ -99,7 +99,7 @@
 	color:#555555;
 	background-color:#fff;
 	padding:4px 5px 4px 5px;
-	border-radius:0px;
+	border-radius:3px;
 }
 
 .miter_user_submit {
@@ -110,7 +110,7 @@
 	color:#000;
 	background-color:#efefef;
 	padding:7px 50px 8px 50px;
-	border-radius:0px;
+	border-radius:3px;
 	cursor:pointer;
 	transition-duration: 0.4s;
 }
@@ -211,7 +211,7 @@
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	outline:none;
-	border-radius:0px;
+	border-radius:3px;
 }
 
 .gen_table {
@@ -221,7 +221,7 @@
 	margin:0;
 	border-spacing:0px;
 	border-collapse:separate;
-	border-radius:0px;
+	border-radius:3px;
 }
 
 .gen_td {
@@ -261,7 +261,7 @@
 
 .submit_td_box {
 	vertical-align:middle;
-	padding:0px 10px 3px 0px;
+	padding:0px 10px 4px 0px;
 	margin:0;
 }
 
@@ -275,7 +275,6 @@ input[type=checkbox]{
 
 .overchar_label {
 	cursor:pointer;
-	text-indent:-9999px;
 	width:32px;
 	height:18px;
 	background:#fff;
@@ -306,10 +305,6 @@ input:checked + .overchar_label:after {
 	transform:translateX(-100%);
 }
 
-.overchar_label:active:after {
-	width:32px;
-}
-
 /* tenon form */
 
 .input_table {
@@ -320,8 +315,8 @@ input:checked + .overchar_label:after {
 	margin:0;
 	border-spacing:0px;
 	border-collapse:separate;
-	border-bottom-left-radius:0px;
-	border-bottom-right-radius:0px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
 }
 
 .input_td {
@@ -413,8 +408,8 @@ input:checked + .overchar_label:after {
 	margin:0;
 	border-spacing:0px;
 	border-collapse:separate;
-	border-bottom-left-radius:0px;
-	border-bottom-right-radius:0px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
 }
 
 .submit_td {
@@ -429,7 +424,7 @@ input:checked + .overchar_label:after {
 	background-color:#efefef;
 	padding:7px 45px 8px 45px;
 	margin:0;
-	border-radius:0px;
+	border-radius:3px;
 	cursor:pointer;
 	transition-duration: 0.4s;
 }
@@ -455,8 +450,8 @@ input:checked + .overchar_label:after {
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	outline:none;
-	border-top-left-radius:0px;
-	border-top-right-radius:0px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
 }
 
 .settings_field_solo {
@@ -472,7 +467,7 @@ input:checked + .overchar_label:after {
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	outline:none;
-	border-radius:0px;
+	border-radius:3px;
 }
 
 .settings_color_field {
@@ -487,8 +482,8 @@ input:checked + .overchar_label:after {
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	outline:none;
-	border-top-left-radius:0px;
-	border-top-right-radius:0px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
 }
 
 
@@ -505,8 +500,8 @@ input:checked + .overchar_label:after {
 	-moz-box-sizing:border-box;
 	box-sizing:border-box;
 	outline:none;
-	border-top-left-radius:0px;
-	border-top-right-radius:0px;
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
 }
 
 .settings_field_file {
@@ -532,8 +527,8 @@ input:checked + .overchar_label:after {
 	background-color:#efefef;
 	padding:8px 0px 8px 0px;
 	text-align:center;
-	border-bottom-left-radius:0px;
-	border-bottom-right-radius:0px;
+	border-bottom-left-radius:3px;
+	border-bottom-right-radius:3px;
 	cursor:pointer;
 }
 
@@ -545,7 +540,7 @@ input:checked + .overchar_label:after {
 	background-color:#efefef;
 	padding:9px 0px 9px 0px;
 	text-align:center;
-	border-radius:0px;
+	border-radius:3px;
 	cursor:pointer;
 }
 
