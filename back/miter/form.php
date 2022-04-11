@@ -127,6 +127,7 @@ echo "<input type='hidden' id='filename' name='filename' value='" . $edit_last_i
 <script src="back/js/buttons.js"></script>
 <script src="back/js/dirtyforms.js"></script>
 <script>$('form').dirtyForms();</script>
+<script src='back/js/miter_inserts.js'></script>
 
 				</form>
 			</td>
