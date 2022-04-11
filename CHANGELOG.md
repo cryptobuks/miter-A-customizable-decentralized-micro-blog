@@ -1,3 +1,10 @@
+**22022**<br />
+fixed miter inserts<br />
+FILECHANGES<br />
+back/miter/form.php<br />
+back/js/miter_form.js<br />
+back/js/miter_inserts.js<br />
+
 **21022**<br />
 combined js form files<br />
 character limit toggle added<br />
