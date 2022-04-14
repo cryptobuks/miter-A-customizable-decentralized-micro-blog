@@ -1,3 +1,21 @@
+**25022**<br />
+quote user name bug<br />
+delete js fix<br />
+panel buttons update<br />
+other bugs<br />
+FILECHANGES<br />
+index.php<br />
+front/quote.php<br />
+front/iso.php<br />
+front/echo.php<br />
+back/admin.css<br />
+back/panels/panels.php<br />
+back/js/delete.js<br />
+back/js/user.js<br />
+back/js/miter_form.js<br />
+back/tenon/new.php<br />
+back/tenon/edit.php<br />
+<br />
 **22022**<br />
 fixed miter inserts<br />
 FILECHANGES<br />
