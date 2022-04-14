@@ -368,6 +368,11 @@ input:checked + .overchar_label:after {
 	margin:0;
 }
 
+.panel_option_title {
+	padding:4px 0px 0px 7px;
+	margin:0;
+}
+
 /* Title Table */
 
 .title_table {
