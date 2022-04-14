@@ -17,11 +17,6 @@ function limiter(){
 	document.miterform.submit.value = count-len;
 }
 
-// delete miters
-function confirm_delete() {
-	return confirm('Delete?');
-}
-
 // validate miter
 function validate() {
     var miterbox = document.forms["miterform"]["miter"].value;

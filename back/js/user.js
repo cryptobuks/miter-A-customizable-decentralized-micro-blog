@@ -39,7 +39,3 @@ function validate_border() {
         return false;
 	}
 }
-
-function confirm_delete() {
-	return confirm('Delete Miter?');
-}
