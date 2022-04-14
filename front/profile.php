@@ -16,7 +16,6 @@
 	}
 	
 ?>
-
 <table class="menu_header">
 	<tr>
 		<td class="menu_header_td">
@@ -24,7 +23,6 @@
 		</td>
 	</tr>
 </table>
-
 <table class="profile_panel_top">
 	<tr>
 		<td class="profile_top_td">
@@ -42,7 +40,6 @@
 		</td>
 	</tr>
 </table>
-
 <table class="profile_menu_top">
 	<tr>
 		<td class="profile_menu_td">
@@ -54,6 +51,7 @@
 						<? echo $miters_today; ?> today<br /></span>
 					</td>
 					<td class="profile_menu_td_right">
+						<span class="tenon">
 						<a href="index.php?a=" style="color:#000;"><? echo number_format($tenon_count); ?> tenons</a><br />
 						<a href="front/atom.php" style="color:#000;" target="_blank">Subscribe</a></span>
 					</td>
@@ -62,4 +60,3 @@
 		</td>
 	</tr>
 </table>
-
