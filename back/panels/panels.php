@@ -131,22 +131,28 @@ if (isset($_GET['p'])) {
 								<td class="panel_option_td">
 									<?
 										if ($panel_huh_notitle == '2') {
-											echo "<span class='tenon'><input type='checkbox' id='hidetitle' name='hidetitle' value='yes' checked> Hide Title</span>";
+											echo "<input type='checkbox' id='hidetitle' name='hidetitle' value='yes' checked><label for='hidetitle' class='overchar_label'></label>";
 											} else {
-											echo "<span class='tenon'><input type='checkbox' id='hidetitle' name='hidetitle' value='yes'> Hide Title</span>";
+											echo "<input type='checkbox' id='hidetitle' name='hidetitle' value='yes'><label for='hidetitle' class='overchar_label'></label>";
 										}
 									?>
+								</td>
+								<td class="panel_option_title">
+									<span class='tenon'>Hide Title</span>
 								</td>
 								<td width="12">
 								</td>
 								<td class="panel_option_td">
 									<?
 										if ($panel_huh_hide == '2') {
-											echo "<span class='tenon'><input type='checkbox' id='hidepanel' name='hidepanel' value='yes' checked> Hide Panel</span>";
+											echo "<input type='checkbox' id='hidepanel' name='hidepanel' value='yes' checked><label for='hidepanel' class='overchar_label'></label>";
 											} else {
-											echo "<span class='tenon'><input type='checkbox' id='hidepanel' name='hidepanel' value='yes'> Hide Panel</span>";
+											echo "<input type='checkbox' id='hidepanel' name='hidepanel' value='yes'><label for='hidepanel' class='overchar_label'></label>";
 										}
 									?>
+								</td>
+								<td class="panel_option_title">
+									<span class='tenon'>Hide Panel</span>
 								</td>
 							</tr>
 						</table>
