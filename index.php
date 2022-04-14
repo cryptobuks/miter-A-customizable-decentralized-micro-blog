@@ -43,9 +43,10 @@
 
 	<?
 
-	// admin css
+	// admin
 	if($login == true){
 		echo "<link href='back/admin.css' rel='stylesheet'>";
+		echo "<script src='back/js/delete.js'></script>";
 	}
 
 	// mobile or desktop
