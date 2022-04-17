@@ -1,3 +1,13 @@
+**28022**<br />
+page title update<br />
+FILECHANGES<br />
+index.php<br />
+front/title.php<br />
+front/static.php<br />
+back/menu.php<br />
+back/tenon/new.php<br />
+back/tenon/edit.php<br />
+<br />
 **25022**<br />
 quote user name bug<br />
 delete js fix<br />
