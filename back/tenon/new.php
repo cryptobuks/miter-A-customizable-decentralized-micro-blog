@@ -28,9 +28,7 @@
 				</tr>
 			</table>
 
-			<?
-				$more_buttons = 'back/tenon/tenon_inserts_form.php';
-			?>
+			<? $more_buttons = 'back/tenon/tenon_inserts_form.php'; ?>
 
 			<table class="more_button_table_holder">
 				<tr>
