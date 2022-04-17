@@ -17,7 +17,7 @@
 
 	// logged in?
 	$user_log_in = str_replace('@','',$user_username);
-	if($_SESSION['miter'] == $user_log_in) {
+	if ($_SESSION['miter'] == $user_log_in) {
 		$login = true;
 	} else {
 		$login = false;
@@ -44,7 +44,7 @@
 	<?
 
 	// admin
-	if($login == true){
+	if ($login == true){
 		echo "<link href='back/admin.css' rel='stylesheet'>";
 		echo "<script src='back/js/delete.js'></script>";
 	}
@@ -75,26 +75,18 @@
 		<? include 'front/style.php'; ?>
 	</style>
 
-
-	<title><?
-	echo $user_title;
-
-	if (isset($_GET['t'])) {
-		echo " - ";
-		$page_title = $_GET['t'];
-		$page_title = str_replace('_',' ',$page_title);
-		echo $page_title;
-	}
-	?></title>
+	<title>
+		<? include 'front/title.php'; ?>
+	</title>
 
 </head>
 
 <body>
 
-	<center>
+	<div align='center'>
 
 		<? 
-		if(isMobile()) {
+		if (isMobile()) {
 			echo "<table class='mobile'><tr><td>";
 		} else {
 			echo "<table class='whole'><tr><td class='left_td'>";
@@ -107,14 +99,14 @@
 
 			include 'front/static.php';
 
-			if(isMobile()) {
+			if (isMobile()) {
 				echo "<div class='bump'></div>";
 			}
 
 		// user page
 		} else if (isset($_GET['u'])) {
 
-			if($login == true) {
+			if ($login == true) {
 
 				$get_user = $_GET['u'];
 				if ($get_user == 'new') {
@@ -136,10 +128,12 @@
 				} else if ($get_user == 'tenon_inserts') {
 					include 'back/tenon/tenon_inserts.php';
 				} else if ($get_user == 'help') {
-					include 'back/help.php';							
+					include 'back/help.php';
+				} else if ($get_user == 'tenons') {
+					include 'front/tenon.php';
 				}
 
-				if(isMobile()) {
+				if (isMobile()) {
 					echo "<div class='bump'></div>";
 				}
 
@@ -148,10 +142,10 @@
 		// edit static
 		} else if (isset($_GET['e'])) {
 
-			if($login == true) {
+			if ($login == true) {
 				include 'front/static.php';
 
-				if(isMobile()) {
+				if (isMobile()) {
 					echo "<div class='bump'></div>";
 				}
 
@@ -162,7 +156,7 @@
 
 			include 'front/search.php';
 
-			if(isMobile()) {
+			if (isMobile()) {
 				echo "<div class='bump'></div>";
 			}
 
@@ -171,7 +165,7 @@
 
 			include 'front/tenon.php';
 
-			if(isMobile()) {
+			if (isMobile()) {
 				echo "<div class='bump'></div>";
 			}
 
@@ -185,7 +179,7 @@
 
 			include 'front/miter.php';
 
-			if(isMobile()) {
+			if (isMobile()) {
 				echo "<div class='bump'></div>";
 			}
 
@@ -194,14 +188,14 @@
 
 			include 'front/miter.php';
 
-			if(isMobile()) {
+			if (isMobile()) {
 				echo "<div class='bump'></div>";
 			}
 
 		}
 
 		// desktop table break
-		if(isMobile()) {
+		if (isMobile()) {
 		} else {
 			echo "</td><td class='center_td'>";
 			echo "</td><td class='right_td'>";
@@ -212,7 +206,7 @@
 		include 'front/panels.php';
 
 		// admin menu
-		if($login == true) {
+		if ($login == true) {
 			echo "<div class='bump'></div>";
 			include 'back/menu.php';
 		}
@@ -223,7 +217,7 @@
 	</tr>
 </table>
 
-</center>
+</div>
 
 </body>
 </html>
