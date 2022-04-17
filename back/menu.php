@@ -14,7 +14,7 @@
 				<hr />
 				<a href="?u=new" style="color:#111111;">New Tenon</a><br />
 				<a href="?u=upload" style="color:#111111;">Upload</a><br />
-				<a href="?a=" style="color:#111111;">Tenon Archive</a><br />
+				<a href="?u=tenons" style="color:#111111;">Tenon Archive</a><br />
 				<a href="?u=tenon_images" style="color:#111111;">Tenon Images</a><br />
 				<a href="?u=tenon_files" style="color:#111111;">Files</a><br />
 				<a href="?u=tenon_inserts" style="color:#111111;">Tenon Inserts</a><br />
