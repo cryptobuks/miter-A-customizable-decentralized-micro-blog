@@ -33,6 +33,7 @@
 	<meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<meta name="robots" content="ALL,INDEX,FOLLOW,ARCHIVE" />
 	<meta name="revisit-after" content="1 day" />
+	<meta name="description" content="<? echo $user_bio; ?>" />
 
 	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
 	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
