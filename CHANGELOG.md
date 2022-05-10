@@ -4,7 +4,7 @@ FILECHANGES<br />
 back/miter/form.php<br />
 back/js/miter_upper.js<br />
 back/js/miter_lower.js<br />
-DELETE
+DELETE<br />
 back/js/miter_form.js<br />
 back/js/buttons.js<br />
 <br />
