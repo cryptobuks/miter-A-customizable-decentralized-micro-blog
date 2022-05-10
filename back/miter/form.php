@@ -22,7 +22,7 @@ if (isset($_GET['edit'])) {
 } 
 ?>
 
-<script src='back/js/miter_form.js'></script>
+<script src='back/js/miter_upper.js'></script>
 
 <table class="gen_table">
 	<tr>
@@ -124,7 +124,7 @@ echo "<input type='hidden' id='filename' name='filename' value='" . $edit_last_i
 
 <script src='back/js/autosize.js'></script>
 <script> autosize(document.querySelectorAll('textarea')); </script>
-<script src="back/js/buttons.js"></script>
+<script src="back/js/miter_lower.js"></script>
 <script src="back/js/dirtyforms.js"></script>
 <script>$('form').dirtyForms();</script>
 <script src='back/js/miter_inserts.js'></script>
