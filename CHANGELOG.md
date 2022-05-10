@@ -1,3 +1,13 @@
+**51022**<br />
+upload insert bug fix<br />
+FILECHANGES<br />
+back/miter/form.php<br />
+back/js/miter_upper.js<br />
+back/js/miter_lower.js<br />
+DELETE
+back/js/miter_form.js<br />
+back/js/buttons.js<br />
+<br />
 **36022**<br />
 meta description -> bio<br />
 menu table<br />
