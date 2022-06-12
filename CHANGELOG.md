@@ -1,3 +1,13 @@
+**85022**<br />
+admin login log<br />
+FILECHANGES<br />
+back/index.php<br />
+back/style.css<br />
+back/admin/log.txt<br />
+back/admin/log_purge.php<br />
+back/admin/log.php<br />
+back/admin/settings.php<br />
+<br />
 **51022**<br />
 upload insert bug fix<br />
 FILECHANGES<br />
