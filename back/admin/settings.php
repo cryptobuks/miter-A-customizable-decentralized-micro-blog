@@ -396,6 +396,35 @@
 					</td>
 				</tr>
 			</table>
+
+			<div class='bump'></div>
+			
+			
+			<span class="tenon">log.txt</span>
+			<div class='bump'></div>
+			
+			<?
+				// log file size
+				$log_dir = 'back/admin/log.txt';
+				$log_size = filesize($log_dir);
+				if ($log_size > 1024) {
+					$log_size = $log_size / 1024;
+					$log_size = "" . number_format($log_size, 2) . " kb";
+					} else {
+					$log_size = "" . number_format($log_size) . " bytes";
+				}
+			?>
+			<table class='setting_table'>
+				<tr>
+					<td>
+						<form name="miter_button_form" action="back/admin/log_purge.php" method="POST" target="_blank">
+							<input class="settings_field" value="<? echo $log_size; ?>" readonly>
+							<input type="submit" value="Purge Log File" class="settings_submit">
+						</form>
+					</td>
+				</tr>
+			</table>
+
 		</td>
 	</tr>
 </table>					
