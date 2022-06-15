@@ -71,23 +71,57 @@
 					</td>
 				</tr>
 			</table>
+		</td>
+	</tr>
+</table>				
+		
+
+<div class='bump'></div>
+
+
+<table class='static_header'>
+	<tr>
+		<td class='static_header_td'>
+			<span class='title'>Favicons</span>
+		</td>
+	</tr>
+</table>
+		
+<table class='static_table'>
+	<tr>
+		<td class='static_td'>
 					
 					
-			<div class='bump'></div>
-					
-					
-			<span class="tenon">Favicons must be saved as <i>favicon.ico</i></span>
+			<span class="tenon">Miter-Favicon must be saved as <i>icon_miter.png</i></span>
 			<div class='bump'></div>
 			<table class='setting_table'>
 				<tr>
 					<td>
 						<form name="miter_favicon" action="back/admin/favicon.php" enctype="multipart/form-data" method="POST">
 							<input name="favicon" type="file" id="favicon" class="settings_field_file">
-							<input type="submit" name="user_submit" value="Change Favicon" class="settings_submit">
+							<input type="submit" name="user_submit" value="Change Miter Favicon" class="settings_submit">
 						</form>
 					</td>
 				</tr>
 			</table>
+
+
+			<div class='bump'></div>
+					
+					
+			<span class="tenon">Tenon-Favicon must be saved as <i>icon_tenon.png</i></span>
+			<div class='bump'></div>
+			<table class='setting_table'>
+				<tr>
+					<td>
+						<form name="miter_favicon" action="back/admin/favicon.php" enctype="multipart/form-data" method="POST">
+							<input name="favicon" type="file" id="favicon" class="settings_field_file">
+							<input type="submit" name="user_submit" value="Change Tenon Favicon" class="settings_submit">
+						</form>
+					</td>
+				</tr>
+			</table>
+
 		</td>
 	</tr>
 </table>

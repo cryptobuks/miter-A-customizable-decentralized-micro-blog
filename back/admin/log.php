@@ -5,14 +5,12 @@
 		padding: 0;
 		margin: 10px;
 		background-color: #eeeeee;
-		overflow-wrap: nowrap;
-		word-wrap: nowrap;
-		word-break: nowrap;
  	}
  	.log {
 		font:normal 13px Courier;
 		color: #000000;
 		line-height: 19px;
+		white-space: nowrap;
 	}
 </style>
 </head>
