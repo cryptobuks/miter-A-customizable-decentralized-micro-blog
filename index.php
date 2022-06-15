@@ -35,8 +35,13 @@
 	<meta name="revisit-after" content="1 day" />
 	<meta name="description" content="<? echo $user_bio; ?>" />
 
-	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
-	<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico" />
+<?	if (isset($_GET['t'])) { ?>
+	<link rel="icon" type="image/png" href="images/icon_tenon.png" />
+	<link rel="shortcut" type="image/png" href="images/icon_tenon.png" />
+<?	} else { ?>
+	<link rel="icon" type="image/png" href="images/icon_miter.png" />
+	<link rel="shortcut" type="image/png" href="images/icon_miter.png" />
+<?	} ?>
 	<link rel="alternate" type="application/atom+xml" href="front/atom.php" />
 	<link rel="stylesheet" href="style.css">
 
