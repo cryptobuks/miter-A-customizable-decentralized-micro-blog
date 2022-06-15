@@ -1,3 +1,16 @@
+**87022**<br />
+favicon changes<br />
+log file<br />
+FILECHANGES<br />
+index.php<br />
+images/icon_miter.png<br />
+images/icon_tenon.png<br />
+back/admin/settings.php<br />
+back/admin/log.php<br />
+back/admin/log_purge.php<br />
+DELETE<br />
+images/favicon.ico<br />
+<br />
 **85022**<br />
 admin login log<br />
 FILECHANGES<br />
