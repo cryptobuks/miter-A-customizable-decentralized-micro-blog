@@ -21,12 +21,6 @@
 		$m_page_show = 10;
 	}
 	
-	// remove special characters
-	function clean($string) {
-		$string = str_replace(' ', '-', $string);
-		return preg_replace('/[^A-Za-z0-9\-]/', '', $string);
-	}
-	$search_get = clean($search_get);
 ?>
 
 <table class='static_header'>
