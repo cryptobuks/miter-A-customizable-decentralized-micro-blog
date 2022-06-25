@@ -1,3 +1,8 @@
+**98022**<br />
+search function improved<br />
+FILECHANGES<br />
+front/search.php<br />
+<br />
 **87022**<br />
 favicon changes<br />
 log file<br />
