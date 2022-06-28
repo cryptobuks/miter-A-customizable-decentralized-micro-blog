@@ -105,7 +105,7 @@
 		}
 		
 	// image
-	} else if (strpos($last_link, '.jpg') !== false || strpos($last_link, '.jpeg') !== false || strpos($last_link, '.png') !== false || strpos($last_link, '.gif') !== false || strpos($last_link, '.svg') !== false) {
+	} else if (strpos($last_link, '.jpg') !== false || strpos($last_link, '.jpeg') !== false || strpos($last_link, '.png') !== false || strpos($last_link, '.gif') !== false || strpos($last_link, '.svg') !== false || strpos($last_link, '.webp') !== false) {
 		
 		// upload then no image
 		if (strlen($last_img) !== 0) { // null
