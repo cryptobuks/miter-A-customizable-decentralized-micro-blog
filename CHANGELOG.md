@@ -1,3 +1,9 @@
+**101022**<br />
+.webp tolerance<br />
+FILECHANGES<br />
+front/iso.php<br />
+front/echo.php<br />
+<br />
 **98022**<br />
 search function improved<br />
 FILECHANGES<br />
