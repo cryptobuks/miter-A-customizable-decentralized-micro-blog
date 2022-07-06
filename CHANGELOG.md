@@ -1,3 +1,10 @@
+**109022**<br />
+.JPG tolerance<br />
+FILECHANGES<br />
+front/iso.php<br />
+front/echo.php<br />
+<br />
+
 **101022**<br />
 .webp tolerance<br />
 FILECHANGES<br />
